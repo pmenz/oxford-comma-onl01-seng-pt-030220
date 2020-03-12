@@ -1,9 +1,12 @@
 def oxford_comma(array)
  str = ""
  if array.count == 1 
-  return  array[0]
+  return array[0]
   end
   
+if array.count == 2 
+  return array[0] + " and " + array[1]
+end
  
  
  
