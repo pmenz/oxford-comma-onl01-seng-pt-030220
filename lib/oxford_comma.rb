@@ -4,4 +4,4 @@ def oxford_comma(array)
  str << ", and " + n end }
  end
  str
- end
+ 
