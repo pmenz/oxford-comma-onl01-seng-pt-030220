@@ -4,8 +4,17 @@ def oxford_comma(array)
   return  array[0]
   end
   
- array.each_with_index {| n , index | if index == array.count - 1 
- str << ", and " + n end }
+ array.each_with_index {| n , index | 
+ 
+ if index == array.count - 1 
+ str << ", and " + n 
+ end
+ 
+   
+   
+   
+   
+ }
  str
  end
 
