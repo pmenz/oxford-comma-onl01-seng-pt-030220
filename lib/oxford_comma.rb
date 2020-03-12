@@ -8,9 +8,18 @@ def oxford_comma(array)
  
  if index == array.count - 1 
  str << ", and " + n 
+ 
+ elsif index == 0
+ 
+ str << n
+ 
+ else
+    
+ str << ", " + n
+ 
  end
  
-   
+
    
    
    
